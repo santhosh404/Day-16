@@ -3,6 +3,7 @@
 const callback = document.getElementById('callback');
 const img = document.getElementById('img');
 const output = document.getElementById('output');
+const heading = document.getElementById('heading');
 
 setTimeout(() => {
     callback.innerText = "10";
@@ -26,6 +27,7 @@ setTimeout(() => {
                                         callback.innerText = "01"
                                         setTimeout(() => {
                                             // callback.innerText = "Happy Independance Day";
+                                            heading.classList.remove('mb-5')
                                             callback.style.display = 'none';
                                             img.style.display = 'none'
                                             output.classList.add('is-visible')
