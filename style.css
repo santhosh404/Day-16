@@ -11,12 +11,6 @@
     display: block;
 }
 
-.monitor-wrapper {
-  background: #050321;
-  width: 770px;
-  height: 130px;
-  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.3);
-}
 
 .monitor {
   width: 700px;
@@ -37,6 +31,7 @@ p {
   /* background-color: #344151 !important; */
 }
 
+
 .center {
   position: absolute;
   top: 0;
@@ -53,5 +48,14 @@ p {
 
   to {
     left: -600px;
+  }
+}
+
+@media screen and (max-width: 546px) {
+  .tbl {
+    width: 300px !important;
+  }
+  .monitor {
+    width: 300px !important;
   }
 }

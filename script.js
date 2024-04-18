@@ -29,7 +29,6 @@ setTimeout(() => {
                                             // callback.innerText = "Happy Independance Day";
                                             heading.classList.remove('mb-5')
                                             callback.style.display = 'none';
-                                            img.style.display = 'none'
                                             output.classList.add('is-visible')
                                         }, 1000)
                                     }, 1000)
